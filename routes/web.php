@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frond-end.page.index');
+});
+
+Route::get('/about', function () {
+    return view('frond-end.page.about');
+});
+
+Route::get('/layanan-kami', function () {
+    return view('frond-end.page.service');
 });
