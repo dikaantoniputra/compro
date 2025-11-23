@@ -5,143 +5,191 @@
 @endpush
 
 @section('content')
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area"
-        style="background-image: url({{ asset('') }}temlet1/asset_lib/image/banner-image-contact.jpg);">
-        <div class="container text-center">
-            <h1>Contact Us</h1>
-        </div>
-    </section>
-    <!--End breadcrumb area-->
-
-
-
-
-    <!--Start contact form area-->
-    <section class="contact-form-area sec-padd-top">
+    <!-- Page Header Start -->
+    <div class="page-header parallaxie">
         <div class="container">
-            <div class="section-title">
-                {{-- <h2>get in <span class="thm-color">touch</span></h2> --}}
-                <p>We welcome your inquiries regarding our products, services, or customization options. Please feel free to
-                    contact us — our team is ready to assist you with any information or support you may need.</p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Conatct us</h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index-2.html">home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">conatct us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Page Contact Us Start -->
+    <div class="page-contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Contact Us Image Start -->
+                    <div class="contact-us-image">
+                        <figure class="image-anime reveal">
+                            <img src="images/contact-us-image.jpg" alt="">
+                        </figure>
+                    </div>
+                    <!-- Contact Us Image End -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Contact Us Form Start -->
+                    <div class="contact-us-form">
+                        <!-- Section Title Start -->
+                        <div class="section-title">
+                            <h3 class="wow fadeInUp">contact form</h3>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">We would love to hear <span>from you</span>
+                            </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Your email address will not be published. Required
+                                fields are marked *</p>
+                        </div>
+                        <!-- Section Title End -->
+
+                        <!-- Contact Form Start -->
+                        <div class="contact-form">
+                            <!-- Contact Form Start -->
+                            <form id="contactForm" action="#" method="POST" data-toggle="validator"
+                                class="wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="row">
+                                    <div class="form-group col-md-6 mb-4">
+                                        <input type="text" name="name" class="form-control" id="name"
+                                            placeholder="Name*" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group col-md-6 mb-4">
+                                        <input type="email" name ="email" class="form-control" id="email"
+                                            placeholder="Email Address*" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group col-md-12 mb-4">
+                                        <input type="text" name="phone" class="form-control" id="phone"
+                                            placeholder="Your Phone" required>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="form-group col-md-12 mb-5">
+                                        <textarea name="message" class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn-default">submit</button>
+                                        <div id="msgSubmit" class="h3 hidden"></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- Contact Form End -->
+                        </div>
+                        <!-- Contact Form End -->
+                    </div>
+                    <!-- Contact Us Form End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Contact Us End -->
+
+    <!-- Google Map Section Start -->
+    <div class="google-map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Our contact</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Get in touch with us</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Get in touch to discuss your employee wellbeing needs
+                            today. Please give us a call, drop us an email or fill out the contact form and we'll get back
+                            to you.</p>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+
+                <div class="col-lg-12">
+                    <!-- Google Map IFrame Start -->
+                    <div class="google-map-iframe">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <!-- Google Map IFrame End -->
+                </div>
             </div>
 
             <div class="row">
+                <div class="col-lg-12">
+                    <!-- Contact Info Box Start -->
+                    <div class="contact-info-box">
+                        <!-- Conatct Info Item Start -->
+                        <div class="contact-info-item wow fadeInUp">
+                            <!-- Icon Box Start -->
+                            <div class="icon-box">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <!-- Icon Box End -->
 
-                <div class="col-md-8">
-                    <div class="v-map" data-aos="zoom-in" data-aos-duration="1200">
-                        <div class='embed-container'>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.1344661956077!2d112.75296291452695!3d-7.338792694703888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb2f18df90eb%3A0xe50ca2e713cbb214!2sJl.%20Berbek%20Industri%20III%20No.23%2C%20Berbek%20Industri%2C%20Berbek%2C%20Kec.%20Waru%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur%2061256!5e0!3m2!1sid!2sid!4v1650597465056!5m2!1sid!2sid"
-                                width="750" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <!-- Contact Info Content Start -->
+                            <div class="contact-info-content">
+                                <h3>phone number</h3>
+                                <p>(+05) 698 - 548 - 6354</p>
+                                <p>(+07) 358 - 879 - 3257</p>
+                            </div>
+                            <!-- Contact Info Content End -->
                         </div>
-                    </div>
-                </div>
+                        <!-- Conatct Info Item End -->
 
-                <div class="col-md-4">
-                    <div class="footer-contact-info">
-                        <div class="title">
-                            {{-- <h4>Quick Contact</h4>
-                            <p>We are a reliable company with caring passion towards our customers, please do contact us for
-                                any information or inquiries.
-                            </p> --}}
+                        <!-- Conatct Info Item Start -->
+                        <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
+                            <!-- Icon Box Start -->
+                            <div class="icon-box">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <!-- Icon Box End -->
+
+                            <!-- Contact Info Content Start -->
+                            <div class="contact-info-content">
+                                <h3>e-mail support</h3>
+                                <p>hello@domain12.com</p>
+                                <p>hello@domain12.com</p>
+                            </div>
+                            <!-- Contact Info Content End -->
                         </div>
-                        <ul class="clearfix">
-                            <li>
-                                <div class="iocn-holder">
-                                    <span class="fa fa-home"></span>
-                                </div>
-                                <div class="text-holder">
+                        <!-- Conatct Info Item End -->
 
-                                    <h6>
-                                        Jl. Berbek Industri 3 no 23</h6>
-                                    <p>Surabaya - Indonesia</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="iocn-holder">
-                                    <span class="icon-technology-1"></span>
-                                </div>
-                                <div class="text-holder">
-                                    <h6>Call Us On</h6>
-                                    <p> +62 31 8436676</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="iocn-holder">
-                                    <span class="icon-letter-1"></span>
-                                </div>
-                                <div class="text-holder">
-                                    <h6>Email @</h6>
-                                    <a href="#">
-                                        <p> info@snl-glove.com</p>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
+                        <!-- Conatct Info Item Start -->
+                        <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
+                            <!-- Icon Box Start -->
+                            <div class="icon-box">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <!-- Icon Box End -->
+
+                            <!-- Contact Info Content Start -->
+                            <div class="contact-info-content">
+                                <h3>headquarter</h3>
+                                <p>2972 Westheimer Rd. Santa Ana Illinois 85486</p>
+                            </div>
+                            <!-- Contact Info Content End -->
+                        </div>
+                        <!-- Conatct Info Item End -->
                     </div>
-
+                    <!-- Contact Info Box End -->
                 </div>
-
             </div>
         </div>
-    </section>
-    <!--End contact form area-->
-
-
-    <section class="contact-form-area sec-padd-top">
-        <div class="container">
-            <div class="section-title">
-                <h2>contact <span class="thm-color">us</span></h2>
-                {{-- <p>Sometimes you want to go where everybody knows your name. And they're always glad you <br> came.
-                    Straight nin' the hills Someday the mountain will.</p> --}}
-            </div>
-
-            <div class="row">
-
-                <div class="col-md-12">
-                    <div class="contact-form">
-                        <form action="{{ asset('sendmail.php') }}" method="POST">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" name="form_name" placeholder="Your Name*" required>
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" name="form_email" placeholder="Your Mail*" required>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" name="form_phone" placeholder="Phone">
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" name="form_subject" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <textarea name="form_message" placeholder="Your Message.." required></textarea>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input type="hidden" name="form_botcheck" value="">
-                                    <button class="thm-btn bg-clr1" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section>
-
-    
+    </div>
+    <!-- Google Map Section End -->
 @endsection
 
 @push('after-script')

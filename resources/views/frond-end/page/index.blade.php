@@ -35,8 +35,8 @@
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="about.html" class="btn-default">tentang kami</a>
-                            <a href="projects.html" class="btn-default btn-highlighted">lihat proyek</a>
+                            <a href="{{ url('about') }}" class="btn-default">tentang kami</a>
+                            <a href="{{ url('projects') }}" class="btn-default btn-highlighted">lihat proyek</a>
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -121,7 +121,7 @@
 
                                 <!-- About Us Content Button Start -->
                                 <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s">
-                                    <a href="about.html" class="btn-default">selengkapnya</a>
+                                    <a href="{{ url('layanan-kami') }}" class="btn-default">selengkapnya</a>
                                 </div>
                                 <!-- About Us Content Button End -->
                             </div>
@@ -136,7 +136,7 @@
                                     </div>
                                     <div class="about-contact-content">
                                         <p>Butuh bantuan?</p>
-                                        <h3>+62 812 3456 7890</h3>
+                                        <h3>087712152690</h3>
                                     </div>
                                 </div>
                                 <!-- Contact Item End -->
@@ -145,12 +145,12 @@
                                 <div class="about-contact-item wow fadeInUp" data-wow-delay="0.6s">
                                     <div class="icon-box">
                                         <figure class="image-anime">
-                                            <img src="images/author-1.jpg" alt="Founder">
+                                            <img src="images/logo-news.png" alt="Founder">
                                         </figure>
                                     </div>
                                     <div class="about-contact-content">
-                                        <h3>Andi Wijaya</h3>
-                                        <p>Pendiri & Direktur</p>
+                                        <h3>Dika Antoni Putra</h3>
+                                        <p>Manager Marketing</p>
                                     </div>
                                 </div>
                                 <!-- Contact Item End -->
@@ -299,7 +299,7 @@
                     <div class="service-item wow fadeInUp">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="Lihat">
+                            <a href="{{ url('layanan-kami') }}" data-cursor-text="Lihat">
                                 <figure class="image-anime">
                                     <img src="images/service-1.jpg" alt="Desain Interior Hunian">
                                 </figure>
@@ -309,13 +309,13 @@
 
                         <!-- Service Button Start -->
                         <div class="service-btn">
-                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                            <a href="{{ url('layanan-kami') }}"><img src="images/arrow-white.svg" alt=""></a>
                         </div>
                         <!-- Service Button End -->
 
                         <!-- Service Content Start -->
                         <div class="service-content">
-                            <h3><a href="service-single.html">Desain Interior Hunian</a></h3>
+                            <h3><a href="{{ url('layanan-kami') }}">Desain Interior Hunian</a></h3>
                             <p>Kami menciptakan ruang tinggal yang personal dan fungsional sesuai gaya hidup Anda.</p>
                         </div>
                         <!-- Service Content End -->
@@ -328,7 +328,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="Lihat">
+                            <a href="{{ url('layanan-kami') }}" data-cursor-text="Lihat">
                                 <figure class="image-anime">
                                     <img src="images/service-2.jpg" alt="Desain Interior Komersial">
                                 </figure>
@@ -338,13 +338,13 @@
 
                         <!-- Service Button Start -->
                         <div class="service-btn">
-                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                            <a href="{{ url('layanan-kami') }}"><img src="images/arrow-white.svg" alt=""></a>
                         </div>
                         <!-- Service Button End -->
 
                         <!-- Service Content Start -->
                         <div class="service-content">
-                            <h3><a href="service-single.html">Desain Interior Komersial</a></h3>
+                            <h3><a href="{{ url('layanan-kami') }}">Desain Interior Komersial</a></h3>
                             <p>Meningkatkan suasana ruang usaha Anda secara profesional, fungsional, dan menarik secara
                                 visual.</p>
                         </div>
@@ -358,7 +358,7 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                         <!-- Service Image Start -->
                         <div class="service-image">
-                            <a href="service-single.html" data-cursor-text="Lihat">
+                            <a href="{{ url('layanan-kami') }}" data-cursor-text="Lihat">
                                 <figure class="image-anime">
                                     <img src="images/service-3.jpg" alt="Pemilihan Furnitur dan Dekorasi">
                                 </figure>
@@ -368,13 +368,13 @@
 
                         <!-- Service Button Start -->
                         <div class="service-btn">
-                            <a href="service-single.html"><img src="images/arrow-white.svg" alt=""></a>
+                            <a href="{{ url('layanan-kami') }}"><img src="images/arrow-white.svg" alt=""></a>
                         </div>
                         <!-- Service Button End -->
 
                         <!-- Service Content Start -->
                         <div class="service-content">
-                            <h3><a href="service-single.html">Furnitur & Dekorasi</a></h3>
+                            <h3><a href="{{ url('layanan-kami') }}">Furnitur & Dekorasi</a></h3>
                             <p>Tim kami membantu Anda memilih furnitur dan dekorasi yang selaras dengan konsep dan gaya
                                 ruangan Anda.</p>
                         </div>
@@ -386,7 +386,7 @@
                 <div class="col-lg-12">
                     <!-- All Services Button Start -->
                     <div class="all-services-btn wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="services.html" class="btn-default">lihat semua layanan</a>
+                        <a href="{{ url('layanan-kami') }}" class="btn-default">lihat semua layanan</a>
                     </div>
                     <!-- All Services Button End -->
                 </div>
@@ -396,37 +396,127 @@
     </div>
     <!-- Our Services Section End -->
 
-    <!-- Intro Video Section Start -->
-    <div class="intro-video">
-        <div class="container-fluid">
+    <!-- How We Work Start -->
+    <div class="how-we-work">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-6">
+                    <!-- Judul Bagian -->
+                    <div class="section-title dark-section">
+                        <h3 class="wow fadeInUp">Cara Kami Bekerja</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            Dari konsep hingga penyelesaian dalam <span>setiap proyek</span>
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- Deskripsi Bagian -->
+                    <div class="section-title-content dark-section">
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            Pendekatan menyeluruh kami membimbing Anda melalui setiap tahap proses desain, mulai dari
+                            brainstorming awal hingga perwujudan konsep.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-lg-12">
-                    <!-- Intro Video Image Start -->
-                    <div class="intro-video-box">
-                        <!-- Intro Image Start -->
-                        <div class="intro-video-image">
-                            <a href="../../www.youtube.com/watch60d8.html?v=Y-x0efG1seA" class="popup-video"
-                                data-cursor-text="Play">
-                                <figure class="image-anime">
-                                    <img src="images/intro-video-bg.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <!-- Intro Image End -->
+                    <!-- Daftar Proses Kerja -->
+                    <div class="how-we-work-list">
 
-                        <!-- Video Play Button Start -->
-                        <div class="video-play-button">
-                            <a href="../../www.youtube.com/watch60d8.html?v=Y-x0efG1seA" class="popup-video"
-                                data-cursor-text="Play">play</a>
+                        <!-- Langkah 1 -->
+                        <div class="how-we-work-item wow fadeInUp">
+                            <div class="icon-box">
+                                <img src="images/icon-how-we-work-1.svg" alt="Konsultasi Awal">
+                            </div>
+                            <div class="how-we-work-content">
+                                <h3>01. Konsultasi Awal</h3>
+                                <p>Kami memulai dengan pertemuan langsung untuk memahami visi, preferensi, dan kebutuhan
+                                    Anda.</p>
+                            </div>
                         </div>
-                        <!-- Video Play Button End -->
+
+                        <!-- Langkah 2 -->
+                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="icon-box">
+                                <img src="images/icon-how-we-work-2.svg" alt="Perencanaan Desain">
+                            </div>
+                            <div class="how-we-work-content">
+                                <h3>02. Perencanaan Desain</h3>
+                                <p>Meliputi pemilihan material, tata letak, furnitur, serta pembuatan visualisasi 3D.</p>
+                            </div>
+                        </div>
+
+                        <!-- Langkah 3 -->
+                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="icon-box">
+                                <img src="images/icon-how-we-work-3.svg" alt="Pelaksanaan Proyek">
+                            </div>
+                            <div class="how-we-work-content">
+                                <h3>03. Pelaksanaan Proyek</h3>
+                                <p>Dengan rencana desain yang telah disusun, kami mengelola dan mengoordinasikan seluruh
+                                    aspek proyek.</p>
+                            </div>
+                        </div>
+
+                        <!-- Langkah 4 -->
+                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="icon-box">
+                                <img src="images/icon-how-we-work-4.svg" alt="Tinjauan Akhir">
+                            </div>
+                            <div class="how-we-work-content">
+                                <h3>04. Tinjauan Akhir</h3>
+                                <p>Setelah proyek selesai, kami melakukan peninjauan menyeluruh bersama Anda untuk
+                                    memastikan semua sesuai harapan.</p>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Intro Video Btn End -->
+
+                    {{-- <!-- Slider Logo Perusahaan -->
+                    <div class="how-work-company-slider">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="company-logo">
+                                        <img src="images/company-logo-1.svg" alt="Logo Mitra 1">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-logo">
+                                        <img src="images/company-logo-2.svg" alt="Logo Mitra 2">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-logo">
+                                        <img src="images/company-logo-3.svg" alt="Logo Mitra 3">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-logo">
+                                        <img src="images/company-logo-4.svg" alt="Logo Mitra 4">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-logo">
+                                        <img src="images/company-logo-5.svg" alt="Logo Mitra 5">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="company-logo">
+                                        <img src="images/company-logo-1.svg" alt="Logo Mitra 1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Slider Logo --> --}}
                 </div>
             </div>
         </div>
     </div>
-    <!-- Intro Video Section End -->
+
 
     <!-- Our Project Start -->
     <div class="our-project">
@@ -578,126 +668,6 @@
     </div>
     <!-- Our Project End -->
 
-    <!-- How We Work Start -->
-    <div class="how-we-work">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Judul Bagian -->
-                    <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">Cara Kami Bekerja</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Dari konsep hingga penyelesaian dalam <span>setiap proyek</span>
-                        </h2>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Deskripsi Bagian -->
-                    <div class="section-title-content dark-section">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Pendekatan menyeluruh kami membimbing Anda melalui setiap tahap proses desain, mulai dari
-                            brainstorming awal hingga perwujudan konsep.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Daftar Proses Kerja -->
-                    <div class="how-we-work-list">
-
-                        <!-- Langkah 1 -->
-                        <div class="how-we-work-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-1.svg" alt="Konsultasi Awal">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>01. Konsultasi Awal</h3>
-                                <p>Kami memulai dengan pertemuan langsung untuk memahami visi, preferensi, dan kebutuhan
-                                    Anda.</p>
-                            </div>
-                        </div>
-
-                        <!-- Langkah 2 -->
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-2.svg" alt="Perencanaan Desain">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>02. Perencanaan Desain</h3>
-                                <p>Meliputi pemilihan material, tata letak, furnitur, serta pembuatan visualisasi 3D.</p>
-                            </div>
-                        </div>
-
-                        <!-- Langkah 3 -->
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-3.svg" alt="Pelaksanaan Proyek">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>03. Pelaksanaan Proyek</h3>
-                                <p>Dengan rencana desain yang telah disusun, kami mengelola dan mengoordinasikan seluruh
-                                    aspek proyek.</p>
-                            </div>
-                        </div>
-
-                        <!-- Langkah 4 -->
-                        <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-we-work-4.svg" alt="Tinjauan Akhir">
-                            </div>
-                            <div class="how-we-work-content">
-                                <h3>04. Tinjauan Akhir</h3>
-                                <p>Setelah proyek selesai, kami melakukan peninjauan menyeluruh bersama Anda untuk
-                                    memastikan semua sesuai harapan.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Slider Logo Perusahaan -->
-                    <div class="how-work-company-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="images/company-logo-1.svg" alt="Logo Mitra 1">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="images/company-logo-2.svg" alt="Logo Mitra 2">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="images/company-logo-3.svg" alt="Logo Mitra 3">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="images/company-logo-4.svg" alt="Logo Mitra 4">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="images/company-logo-5.svg" alt="Logo Mitra 5">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="company-logo">
-                                        <img src="images/company-logo-1.svg" alt="Logo Mitra 1">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Slider Logo -->
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- How We Work End -->
 
@@ -736,10 +706,10 @@
                             </div>
 
                             <div class="skills-progress-bar">
-                                <div class="skillbar" data-percent="85%">
+                                <div class="skillbar" data-percent="95%">
                                     <div class="skill-data">
                                         <div class="skill-title">Tantangan Proyek & Solusi</div>
-                                        <div class="skill-no">85%</div>
+                                        <div class="skill-no">95%</div>
                                     </div>
                                     <div class="skill-progress">
                                         <div class="count-bar"></div>
@@ -748,10 +718,10 @@
                             </div>
 
                             <div class="skills-progress-bar">
-                                <div class="skillbar" data-percent="75%">
+                                <div class="skillbar" data-percent="95%">
                                     <div class="skill-data">
-                                        <div class="skill-title">Fitur Ramah Lingkungan & Keberlanjutan</div>
-                                        <div class="skill-no">75%</div>
+                                        <div class="skill-title">Bahan Ramah Lingkungan & Awet</div>
+                                        <div class="skill-no">95%</div>
                                     </div>
                                     <div class="skill-progress">
                                         <div class="count-bar"></div>
@@ -795,7 +765,7 @@
     <!-- Our Skill End -->
 
     <!-- Our Testimonial Start -->
-    <section class="our-testimonials" id="testimoni-klien">
+    {{-- <section class="our-testimonials" id="testimoni-klien">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <!-- Gambar Testimoni -->
@@ -905,7 +875,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- Our Testimonial End -->
 

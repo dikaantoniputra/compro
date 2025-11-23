@@ -4,9 +4,13 @@
         <nav class="container">
             <div class="navbar navbar-expand-lg">
                 <!-- Logo Start -->
-                <a class="navbar-brand" href="index-2.html">
-                    <img src="images/logo.svg" alt="Logo">
+                <a class="navbar-brand" href="index-2.html" style="display: flex; align-items: center; gap: 10px;">
+                    <img src="images/logo-news.png" alt="Logo"
+                        style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+                    <span style="color: white;">Ruang Bagus</span>
                 </a>
+
+
                 <!-- Logo End -->
 
                 <!-- Main Menu Start -->
@@ -18,15 +22,15 @@
                             <li class="nav-item"><a class="nav-link" href="{{ url('/about') }}">About Us</a>
                             <li class="nav-item"><a class="nav-link" href="{{ url('layanan-kami') }}">Layanan Kami</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('projects') }}">Projects</a></li>
+                            {{-- <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li> --}}
 
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url('contact') }}">Contact Us</a></li>
                         </ul>
                     </div>
                     <!-- Header Btn Start -->
                     <div class="header-btn d-inline-flex">
-                        <a href="contact.html" class="btn-default">get in touch</a>
+                        <a href="contact.html" class="btn-default">Hubungi Kami</a>
                     </div>
                     <!-- Header Btn End -->
                 </div>

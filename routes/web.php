@@ -24,3 +24,11 @@ Route::get('/about', function () {
 Route::get('/layanan-kami', function () {
     return view('frond-end.page.service');
 });
+
+Route::get('/projects', function () {
+    return view('frond-end.page.projects');
+});
+
+Route::get('/contact', function () {
+    return view('frond-end.page.contact');
+});

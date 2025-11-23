@@ -15,7 +15,8 @@
     <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
-            <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+            <div id="loading-icon"><img src="images/logo-news.png" alt=""
+                    style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;"></div>
         </div>
     </div>
     <!-- Preloader End -->
